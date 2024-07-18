@@ -31,11 +31,14 @@ def save_processed_css(processed_css, output_file_path):
         file.write(processed_css)
 
 if __name__ == "__main__":
-    # Modify the paths to the desired files
-    input_file_path = '../Desktop/example.css'
-    output_file_path = '../Desktop/example_compiled.css'
+    # Modify the paths to the input and output files
+    input_file_path = '../../../../Desktop/example.css'
+    output_file_path = '../../../../Desktop/example_compiled.css'
     
     processed_css = process_css(input_file_path)
     save_processed_css(processed_css, output_file_path)
 
-    print(f"Processed file saved in {output_file_path}")
+    print(f"Archivo procesado guardado en {output_file_path}")
+
+
+    
