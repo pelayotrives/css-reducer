@@ -38,7 +38,7 @@ if __name__ == "__main__":
     processed_css = process_css(input_file_path)
     save_processed_css(processed_css, output_file_path)
 
-    print(f"Archivo procesado guardado en {output_file_path}")
+    print(f"Processed file saved in {output_file_path}")
 
 
     
